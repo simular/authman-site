@@ -12,7 +12,7 @@ const { theme } = useData();
 <template>
 <Layout>
   <template #home-hero-actions-after>
-    <div style="margin-top: 1rem; display: flex; gap: .5rem;">
+    <div class="l-downloads" style="margin-top: 1rem; display: flex; gap: .5rem;">
       <a v-for="platform of theme.downloads"
         target="_blank"
         :href="platform.url" :key="platform.title">
@@ -35,5 +35,10 @@ const { theme } = useData();
 </template>
 
 <style scoped>
-
+@media (max-width: 991px) {
+  .l-downloads {
+    flex-wrap: wrap;
+    justify-content: center;
+  }
+}
 </style>

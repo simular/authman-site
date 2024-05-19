@@ -38,7 +38,3 @@ features:
     details: The most important is that you can export all your 2FA tokens to JSON format if you finally decided move to another app. Authman is open, just export tokens for any purpose you want.
 
 ---
-
-## Hello World
-
-DFGFDH
