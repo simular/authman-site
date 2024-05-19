@@ -23,3 +23,11 @@ Authman will never transmit plain tokens data or keys to server. the 2FA tokens 
 ## What are the cipher and derive algo which Authman uses?
 
 Authman derives your password by ARGON2, and encrypts tokens and keys by XSalsa20 authenticated cipher. This was done by the libsodium on the app side.
+
+## If I forgot my password, can I reset it?
+
+Sorry, currently this is impossible. Since Authman use your password to encrypt your 2FA tokens, the user password
+is necessary to sign in account. If you lose your password, you will never be able to get the tokens back.
+
+We will add the fully account-reset function in the future, someone can restart an empty account with same email
+if they lose their password.
