@@ -1,0 +1,43 @@
+# OS generated files #
+.DS_Store
+.DS_Store?
+ehthumbs.db
+Icon?
+Thumbs.db
+
+# IDE Ignores #
+.idea/
+.vscode/
+
+# Extra #
+!.gitkeep
+
+# Configuration #
+.env
+.env.local
+.env*.local
+!.env.dist
+
+# Vitepress
+.vitepress/cache
+.vitepress/dist
+
+# Libraries
+/vendor
+/node_modules
+/bower_components
+/yarn-error.log
+.npmrc
+/theme
+
+# Remove above lines when you start a project
+# composer.lock
+# yarn.lock
+package-lock.json
+
+#Test
+/phpunit.xml
+/phpunit.core.xml
+
+# Others
+/.scannerwork

@@ -1,0 +1,14 @@
+{
+  "dependencies": {
+    "vitepress": "^1.2.0"
+  },
+  "scripts": {
+    "docs:dev": "vitepress dev",
+    "docs:build": "vitepress build",
+    "docs:preview": "vitepress preview"
+  },
+  "devDependencies": {
+    "install": "^0.13.0",
+    "swiper": "^11.1.3"
+  }
+}
