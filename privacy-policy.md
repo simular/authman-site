@@ -18,7 +18,8 @@ more secure and solid.
 
 Authman is a set of software contains several clients and server sides. User download and install client apps and 
 sign-up there accounts, the client side will send user account data and 2FA tokens to the server, and sync between 
-every device which was signed in the same accounts.
+every device which was signed in the same accounts. All user data will encrypt in client side and only transmit the 
+encrypted data to server, except the email (which is user account). 
 
 ## Email Collected
 
