@@ -1,10 +1,13 @@
-import { defineConfig } from 'vitepress'
+import { defineConfig } from 'vitepress';
 
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   appearance: 'force-dark',
   title: "Authman",
   description: "Cross-Platform 2FA Made Easy",
+  head: [
+    ['link', { rel: 'icon', href: 'assets/images/icon.png' }]
+  ],
   themeConfig: {
     logo: "assets/images/authman-logo-h.png",
     siteTitle: false,
@@ -67,4 +70,4 @@ export default defineConfig({
       copyright: 'Copyright © 2024 <a href="https://simular.co/" target="_blank">Simular Inc.</a>'
     }
   }
-})
+});
