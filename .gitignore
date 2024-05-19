@@ -19,8 +19,8 @@ Thumbs.db
 !.env.dist
 
 # Vitepress
-.vitepress/cache
-.vitepress/dist
+/.vitepress/cache
+/.vitepress/dist
 
 # Libraries
 /vendor
