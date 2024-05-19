@@ -20,7 +20,7 @@ Thumbs.db
 
 # Vitepress
 /.vitepress/cache
-/.vitepress/dist
+#/.vitepress/dist
 
 # Libraries
 /vendor
