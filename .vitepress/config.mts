@@ -67,7 +67,7 @@ export default defineConfig({
 
     footer: {
       message: 'Released under the GPL-3.0 License.',
-      copyright: 'Copyright © 2024 <a href="https://simular.co/" target="_blank">Simular Inc.</a>'
+      copyright: 'Copyright © 2024 <a href="https://simular.co/" target="_blank">Simular Inc.</a> / Allstars Inc.'
     }
   }
 });
