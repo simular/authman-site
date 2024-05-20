@@ -24,12 +24,12 @@ export default defineConfig({
       {
         title: 'iOS',
         image: 'badge-ios.png',
-        url: '#',
+        url: 'https://apps.apple.com/us/app/authman-2fa/id6502499482',
       },
       {
         title: 'Android',
         image: 'badge-google-play.png',
-        url: '#',
+        url: 'https://play.google.com/store/apps/details?id=io.authman',
       },
       {
         title: 'macOS',
