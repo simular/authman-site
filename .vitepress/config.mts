@@ -7,7 +7,7 @@ export default defineConfig({
   description: "Authman 2FA is a free, secure and open source cross-platform app to help you manage your 2-step authentication tokens on iOS, Android and desktop, and securely sync them between devices.",
   head: [
     // Links
-    ['link', { rel: 'icon', href: '/assets/images/icon.png' }],
+    ['link', { rel: 'icon', href: '/assets/images/icon-128.png' }],
 
     // Meta
     ['meta', { name: 'google-site-verification', content: 'UZhRggks92cAVN9DSN2avqsi16IiRSdl3nSP0kS7v7A' }],
