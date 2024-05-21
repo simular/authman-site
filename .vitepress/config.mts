@@ -11,9 +11,17 @@ export default defineConfig({
 
     // Meta
     ['meta', { property: 'og:image', content: '/assets/images/cover.png' }],
-    ['meta', { name: 'google-site-verification', content: 'UZhRggks92cAVN9DSN2avqsi16IiRSdl3nSP0kS7v7A' }],
+
+    // Microdata
+    ['script', { type: 'application/ld+json' }, `{
+    "@context": "https://schema.org",
+    "@type": "WebSite",
+    "name": "Authman",
+    "url": "https://authman.simular.co/"
+  }`],
 
     // Scripts
+    ['meta', { name: 'google-site-verification', content: 'UZhRggks92cAVN9DSN2avqsi16IiRSdl3nSP0kS7v7A' }],
     ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-JX9FF1GPEE' }],
     ['script', {}, `  window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
