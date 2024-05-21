@@ -10,6 +10,7 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/assets/images/icon-128.png' }],
 
     // Meta
+    ['meta', { property: 'og:image', content: '/assets/images/cover.png' }],
     ['meta', { name: 'google-site-verification', content: 'UZhRggks92cAVN9DSN2avqsi16IiRSdl3nSP0kS7v7A' }],
 
     // Scripts
