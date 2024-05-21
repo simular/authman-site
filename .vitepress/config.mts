@@ -6,10 +6,21 @@ export default defineConfig({
   title: "Authman",
   description: "Cross-Platform 2FA Made Easy",
   head: [
-    ['link', { rel: 'icon', href: 'assets/images/icon.png' }]
+    // Links
+    ['link', { rel: 'icon', href: '/assets/images/icon.png' }],
+
+    // Meta
+    ['meta', { name: 'google-site-verification', content: 'UZhRggks92cAVN9DSN2avqsi16IiRSdl3nSP0kS7v7A' }],
+
+    // Scripts
+    ['script', { async: true, src: 'https://www.googletagmanager.com/gtag/js?id=G-JX9FF1GPEE' }],
+    ['script', {}, `  window.dataLayer = window.dataLayer || [];
+  function gtag(){dataLayer.push(arguments);}
+  gtag('js', new Date());
+  gtag('config', 'G-JX9FF1GPEE');`],
   ],
   themeConfig: {
-    logo: "assets/images/authman-logo-h.png",
+    logo: "/assets/images/authman-logo-h.png",
     siteTitle: false,
 
     // https://vitepress.dev/reference/default-theme-config
