@@ -4,7 +4,7 @@ layout: home
 
 hero:
   name: "Authman"
-  text: "Cross-Platform 2FA Made Easy"
+  text: "Cross-Platform 2FA TOTP Made Easy"
   tagline: Authman 2FA is a free, secure and open source cross-platform app to help you manage your 2-step authentication tokens on iOS, Android and desktop, and securely sync them between devices.
   image:
     src: assets/images/home/authman-hero.png
