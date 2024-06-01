@@ -65,7 +65,24 @@ Go to **Options > My Account** and click `Import` option, then choose the json f
 
 ![import](https://github.com/simular/authman-app/assets/1639206/11503c25-f798-4257-84a7-62a96689e2c5)
 
-> [!NOTE]
-> Currently, Authman only supports import file which is exported from Authman, we are considering add the way to import from other 2FA apps in the future.
+### Format of Import File 
 
+If you have 2FA token secrets from other app or source, and you want to import them into Authman, 
+currently Authman only supports own import format, please convert your secrets to this JSON format:
+
+```json
+{
+  "accounts": [
+    {
+      "content": {
+        "title": "WebSite Name",
+        "secret": "IGNV.....",
+        "image": "data:image/png;base64,...",
+      }
+    },
+    {...},
+    {...}
+  ]
+}
+```
 
