@@ -35,7 +35,7 @@ export default defineConfig({
     // https://vitepress.dev/reference/default-theme-config
     nav: [
       { text: 'Home', link: '/' },
-      // { text: 'Examples', link: '/markdown-examples' },
+      { text: 'Guide', link: '/docs/' },
       { text: 'FAQs', link: '/faqs' },
       { text: 'Privacy Policy', link: '/privacy-policy' },
     ],
@@ -64,13 +64,14 @@ export default defineConfig({
     ],
 
     sidebar: [
-      // {
-      //   text: 'Examples',
-      //   items: [
-      //     { text: 'Markdown Examples', link: '/markdown-examples' },
-      //     { text: 'Runtime API Examples', link: '/api-examples' }
-      //   ]
-      // },
+      {
+        text: 'Guide',
+        items: [
+          { text: 'Installation', link: '/docs/' },
+          { text: 'Authentication', link: '/docs/authentication' },
+          { text: 'Token Managements', link: '/docs/token-managements' }
+        ]
+      },
       {
         text: 'FAQs',
         link: '/faqs',
