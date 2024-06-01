@@ -11,7 +11,7 @@ and go to sign up page:
 
 <img width="355" alt="signup" src="https://github.com/simular/authman-app/assets/1639206/aaf3d291-dad0-4c7e-b672-36f9bda2e9ee">
 
-Enter you email and password to sign-up, currently we won't send verify email to user, so make sure you enter correvt personal email and use a strong password to protect your account.
+Enter you email and password to sign-up, currently we won't send verify email to user, so make sure you enter correct personal email and use a strong password to protect your account.
 
 <img width="351" alt="account" src="https://github.com/simular/authman-app/assets/1639206/7e76111f-d2ea-4348-8587-52a988e6d019">
 
