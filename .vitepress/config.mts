@@ -10,7 +10,7 @@ export default defineConfig({
     ['link', { rel: 'icon', href: '/assets/images/icon-128.png' }],
 
     // Meta
-    ['meta', { property: 'og:image', content: '/assets/images/cover.png' }],
+    ['meta', { property: 'og:image', content: 'https://authman.simular.co/assets/images/cover.png' }],
 
     // Microdata
     ['script', { type: 'application/ld+json' }, `{
