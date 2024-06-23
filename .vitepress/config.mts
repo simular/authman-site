@@ -54,12 +54,12 @@ export default defineConfig({
       {
         title: 'macOS',
         image: 'badge-macos.png',
-        url: 'https://github.com/simular/authman-app/releases/latest',
+        url: 'https://github.com/simular/authman-app/releases/download/latest/Authman-macOS.dmg',
       },
       {
         title: 'Windows',
         image: 'badge-windows.png',
-        url: 'https://github.com/simular/authman-app/releases/latest',
+        url: 'https://github.com/simular/authman-app/releases/download/latest/Authman-Setup-Windows.exe',
       },
     ],
 
