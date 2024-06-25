@@ -38,6 +38,7 @@ export default defineConfig({
       { text: 'Guide', link: '/docs/' },
       { text: 'FAQs', link: '/faqs' },
       { text: 'Privacy Policy', link: '/privacy-policy' },
+      { text: 'PressKit', link: 'https://github.com/simular/authman-app/wiki/PressKit' },
     ],
 
     downloads: [
