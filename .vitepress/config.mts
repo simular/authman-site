@@ -3,7 +3,7 @@ import { defineConfig } from 'vitepress';
 // https://vitepress.dev/reference/site-config
 export default defineConfig({
   appearance: 'force-dark',
-  title: "Authman - Cross-Platform 2FA TOTP Made Easy",
+  title: "Authman - Cross-Platform 2FA TOTP App",
   description: "Authman 2FA is a free, secure and open source cross-platform TOTP app to help you manage your 2-step authentication tokens on iOS, Android and desktop, and securely sync them between devices.",
   head: [
     // Links
